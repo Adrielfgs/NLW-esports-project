@@ -115,9 +115,23 @@ section ul li:hover{
     width: 40px;
 }
 
+.tech-list img {
+    width: 50px;
+}
+
+.music-list img {
+    width: 60px;
+    border-radius: 8px;
+}
+
+.text {
+    font-size: 7px;
+    text-align: center;
+}
+
 /*animation */
 header div{
-    animation: fromTop .8s .2s backwards;
+    animation: fromTop .8s .7s backwards;
 }
 
 main section {
@@ -128,12 +142,22 @@ main section:nth-child(1) {
     animation-delay: .2s;
 }
 main section:nth-child(2) {
-    animation-delay: .4s;
+    animation-delay: .3s;
 }
 main section:nth-child(3) {
-    animation-delay: .6s;
+    animation-delay: .4s;
 }
 main section:nth-child(4) {
+    animation-delay: .5s;
+}
+main section:nth-child(5) {
+    animation-delay: .6s;
+}
+
+main section:nth-child(6) {
+    animation-delay: .7s;
+}
+main section:nth-child(7) {
     animation-delay: .8s;
 }
 
@@ -152,7 +176,7 @@ main section:nth-child(4) {
 @keyframes fromBottom {
     from {
         opacity: 0;
-        transform: translateY(-30px);
+        transform: translateY(-40px);
     }
 
     to {
