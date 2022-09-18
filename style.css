@@ -134,6 +134,10 @@ header div{
     animation: fromTop .8s .7s backwards;
 }
 
+.top{
+    animation: fromTop .8s .7s backwards;
+}
+
 main section {
     animation: fromBottom .7s backwards;
 }
